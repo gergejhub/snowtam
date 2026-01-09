@@ -1,0 +1,186 @@
+:root{
+  --bg: #0c0f14;
+  --panel: #121826;
+  --panel2: #0f1420;
+  --text: #e7eefc;
+  --muted: #9fb0cc;
+  --border: rgba(255,255,255,.08);
+  --shadow: rgba(0,0,0,.35);
+
+  --gray: #9aa0a6;
+  --green: #2ecc71;
+  --yellow: #f1c40f;
+  --orange: #f39c12;
+  --red: #e74c3c;
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; margin:0; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,sans-serif; background:var(--bg); color:var(--text); }
+
+.topbar{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:12px 14px; border-bottom:1px solid var(--border);
+  background: linear-gradient(180deg, rgba(18,24,38,.98), rgba(12,15,20,.98));
+  position: sticky; top:0; z-index: 2000;
+}
+.brand .title{ font-weight:700; letter-spacing:.3px; }
+.brand .subtitle{ font-size:12px; color:var(--muted); margin-top:2px; }
+
+.statusbar{ display:flex; gap:8px; align-items:center; }
+.pill{
+  font-size:12px; color:var(--muted);
+  border:1px solid var(--border);
+  padding:6px 8px; border-radius:10px;
+  background: rgba(255,255,255,.03);
+}
+
+.btn{
+  cursor:pointer;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.05);
+  color: var(--text);
+  padding:7px 10px;
+  border-radius:10px;
+  font-weight:600;
+}
+.btn:hover{ background: rgba(255,255,255,.08); }
+
+.layout{ display:flex; height: calc(100% - 56px); }
+.sidebar{
+  width: 360px; min-width: 320px; max-width: 420px;
+  padding: 12px;
+  overflow:auto;
+  border-right:1px solid var(--border);
+  background: rgba(18,24,38,.55);
+}
+.main{ flex:1; position:relative; }
+#map{ height:100%; width:100%; }
+
+.panel{
+  background: rgba(18,24,38,.85);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding: 12px;
+  box-shadow: 0 8px 24px var(--shadow);
+  margin-bottom:12px;
+}
+.panel.small{ background: rgba(15,20,32,.75); }
+
+.panel-title{
+  font-weight:700;
+  margin-bottom:10px;
+  letter-spacing:.25px;
+}
+
+#search{
+  width:100%;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.03);
+  padding:10px 12px;
+  color: var(--text);
+  outline:none;
+  margin-bottom:10px;
+}
+#search::placeholder{ color: rgba(159,176,204,.7); }
+
+.legend{
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  padding:10px 0;
+  margin:10px 0;
+  font-size:12px;
+  color: var(--muted);
+}
+.legend-row{ display:flex; align-items:center; gap:8px; margin:4px 0; }
+
+.dot{ width:10px; height:10px; border-radius:50%; display:inline-block; border:1px solid rgba(0,0,0,.35); }
+.dot-gray{ background: var(--gray); }
+.dot-green{ background: var(--green); }
+.dot-yellow{ background: var(--yellow); }
+.dot-orange{ background: var(--orange); }
+.dot-red{ background: var(--red); }
+
+.blink-sample{
+  width:10px; height:10px; border-radius:50%;
+  display:inline-block; background: var(--yellow);
+  animation: blink 1.1s infinite;
+  border:1px solid rgba(0,0,0,.35);
+}
+
+.airport-list{ display:flex; flex-direction:column; gap:6px; max-height: 52vh; overflow:auto; padding-right:4px; }
+.airport-item{
+  display:flex; justify-content:space-between; align-items:center;
+  gap:10px;
+  padding:8px 10px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.03);
+  cursor:pointer;
+}
+.airport-item:hover{ background: rgba(255,255,255,.06); }
+
+.badge{
+  font-size:11px;
+  padding:4px 8px;
+  border-radius:999px;
+  font-weight:700;
+  border:1px solid rgba(0,0,0,.35);
+  color:#0c0f14;
+}
+.badge.gray{ background: var(--gray); }
+.badge.green{ background: var(--green); }
+.badge.yellow{ background: var(--yellow); }
+.badge.orange{ background: var(--orange); }
+.badge.red{ background: var(--red); }
+
+.smalltext{
+  font-size:12px;
+  line-height:1.35;
+  color: var(--muted);
+}
+
+/* Leaflet popup styling + ensure it's always on top */
+.leaflet-popup{
+  z-index: 3000 !important;
+}
+.leaflet-popup-content-wrapper{
+  background: rgba(18,24,38,.96);
+  color: var(--text);
+  border:1px solid var(--border);
+  border-radius:14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.55);
+}
+.leaflet-popup-tip{
+  background: rgba(18,24,38,.96);
+  border:1px solid var(--border);
+}
+.leaflet-popup-content{
+  margin: 10px 12px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+.popup-title{
+  font-weight:800;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.popup-meta{ color: var(--muted); margin-bottom: 8px; }
+.popup-block{ margin: 8px 0; }
+.popup-block pre{
+  background: rgba(0,0,0,.25);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:10px;
+  overflow:auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--text);
+}
+
+/* Blink animation for "changed" airports */
+@keyframes blink{
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: .35; transform: scale(0.88); }
+}
+.blinking{ animation: blink 1.05s infinite; }
