@@ -1,6 +1,1604 @@
 {
-  "generated_at_utc": null,
-  "source": "Notamify /api/v2/notams",
-  "notes": "Run GitHub Action to populate.",
-  "airports": {}
+  "generated_at_utc": "2026-01-09T15:37:14Z",
+  "source": "Notamify /api/v2/notams (active)",
+  "window": {
+    "starts_at": "2026-01-08T15:37:14Z",
+    "ends_at": "2026-01-16T15:37:14Z"
+  },
+  "batch_size": 5,
+  "per_page": 30,
+  "max_pages": 1,
+  "blink_hint_minutes": 90,
+  "airports": {
+    "BIKF": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "items": [],
+      "hash": null
+    },
+    "BKPR": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "items": [],
+      "hash": null
+    },
+    "GCFV": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "items": [],
+      "hash": null
+    },
+    "GCLP": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "items": [],
+      "hash": null
+    },
+    "GCTS": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "items": [],
+      "hash": null
+    },
+    "GMAD": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "items": [],
+      "hash": null
+    },
+    "GMMN": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "items": [],
+      "hash": null
+    },
+    "GMMX": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "items": [],
+      "hash": null
+    },
+    "EBCI": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "items": [],
+      "hash": null
+    },
+    "EDDB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "items": [],
+      "hash": null
+    },
+    "EDDH": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "items": [],
+      "hash": null
+    },
+    "EDDK": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "items": [],
+      "hash": null
+    },
+    "EDDN": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "items": [],
+      "hash": null
+    },
+    "EDDS": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "items": [],
+      "hash": null
+    },
+    "EDFH": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "items": [],
+      "hash": null
+    },
+    "EDJA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "items": [],
+      "hash": null
+    },
+    "EDLW": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "items": [],
+      "hash": null
+    },
+    "EDNY": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "items": [],
+      "hash": null
+    },
+    "EDSB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "items": [],
+      "hash": null
+    },
+    "EETN": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "items": [],
+      "hash": null
+    },
+    "EFTU": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "items": [],
+      "hash": null
+    },
+    "EGBB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "items": [],
+      "hash": null
+    },
+    "EGGP": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "items": [],
+      "hash": null
+    },
+    "EGGW": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "items": [],
+      "hash": null
+    },
+    "EGKK": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "items": [],
+      "hash": null
+    },
+    "EGNM": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "items": [],
+      "hash": null
+    },
+    "EGPD": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "items": [],
+      "hash": null
+    },
+    "EGPF": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "items": [],
+      "hash": null
+    },
+    "EHBK": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "items": [],
+      "hash": null
+    },
+    "EHEH": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "items": [],
+      "hash": null
+    },
+    "EKBI": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "items": [],
+      "hash": null
+    },
+    "EKCH": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "items": [],
+      "hash": null
+    },
+    "ENAL": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "items": [],
+      "hash": null
+    },
+    "ENBR": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "items": [],
+      "hash": null
+    },
+    "ENGM": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "items": [],
+      "hash": null
+    },
+    "ENHD": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "items": [],
+      "hash": null
+    },
+    "ENTC": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "items": [],
+      "hash": null
+    },
+    "ENTO": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "items": [],
+      "hash": null
+    },
+    "ENVA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "items": [],
+      "hash": null
+    },
+    "ENZV": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "items": [],
+      "hash": null
+    },
+    "EPGD": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "items": [],
+      "hash": null
+    },
+    "EPKK": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "items": [],
+      "hash": null
+    },
+    "EPKT": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "items": [],
+      "hash": null
+    },
+    "EPLB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "items": [],
+      "hash": null
+    },
+    "EPMO": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "items": [],
+      "hash": null
+    },
+    "EPPO": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "items": [],
+      "hash": null
+    },
+    "EPRA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "items": [],
+      "hash": null
+    },
+    "EPRZ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "items": [],
+      "hash": null
+    },
+    "EPSC": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "items": [],
+      "hash": null
+    },
+    "EPSY": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "items": [],
+      "hash": null
+    },
+    "EPWA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "items": [],
+      "hash": null
+    },
+    "EPWR": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "items": [],
+      "hash": null
+    },
+    "ESGG": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "items": [],
+      "hash": null
+    },
+    "ESKN": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "items": [],
+      "hash": null
+    },
+    "ESMS": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "items": [],
+      "hash": null
+    },
+    "ESSA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "items": [],
+      "hash": null
+    },
+    "EYKA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "items": [],
+      "hash": null
+    },
+    "EYPA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "items": [],
+      "hash": null
+    },
+    "EYVI": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "items": [],
+      "hash": null
+    },
+    "HEGN": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "items": [],
+      "hash": null
+    },
+    "HEMA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "items": [],
+      "hash": null
+    },
+    "HESH": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "items": [],
+      "hash": null
+    },
+    "HESX": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "items": [],
+      "hash": null
+    },
+    "LATI": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "items": [],
+      "hash": null
+    },
+    "LBPD": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "items": [],
+      "hash": null
+    },
+    "LBSF": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "items": [],
+      "hash": null
+    },
+    "LBWN": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "items": [],
+      "hash": null
+    },
+    "LCLK": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "items": [],
+      "hash": null
+    },
+    "LCPH": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "items": [],
+      "hash": null
+    },
+    "LEAL": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "items": [],
+      "hash": null
+    },
+    "LEBB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "items": [],
+      "hash": null
+    },
+    "LEBL": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "items": [],
+      "hash": null
+    },
+    "LECH": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "items": [],
+      "hash": null
+    },
+    "LEMD": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "items": [],
+      "hash": null
+    },
+    "LEMG": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "items": [],
+      "hash": null
+    },
+    "LEVC": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "items": [],
+      "hash": null
+    },
+    "LEXJ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "items": [],
+      "hash": null
+    },
+    "LEZG": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "items": [],
+      "hash": null
+    },
+    "LEZL": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "items": [],
+      "hash": null
+    },
+    "LFBD": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "items": [],
+      "hash": null
+    },
+    "LFLL": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "items": [],
+      "hash": null
+    },
+    "LFLS": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "items": [],
+      "hash": null
+    },
+    "LFMN": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "items": [],
+      "hash": null
+    },
+    "LFOB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "items": [],
+      "hash": null
+    },
+    "LFPO": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "items": [],
+      "hash": null
+    },
+    "LFSB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "items": [],
+      "hash": null
+    },
+    "LGAV": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "items": [],
+      "hash": null
+    },
+    "LGTS": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "items": [],
+      "hash": null
+    },
+    "LHBP": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "items": [],
+      "hash": null
+    },
+    "LHDC": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "items": [],
+      "hash": null
+    },
+    "LIBD": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "items": [],
+      "hash": null
+    },
+    "LIBG": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "items": [],
+      "hash": null
+    },
+    "LIBP": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "items": [],
+      "hash": null
+    },
+    "LIBR": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "items": [],
+      "hash": null
+    },
+    "LICA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "items": [],
+      "hash": null
+    },
+    "LICC": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "items": [],
+      "hash": null
+    },
+    "LICJ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "items": [],
+      "hash": null
+    },
+    "LIMC": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "items": [],
+      "hash": null
+    },
+    "LIME": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "items": [],
+      "hash": null
+    },
+    "LIMF": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "items": [],
+      "hash": null
+    },
+    "LIMJ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "items": [],
+      "hash": null
+    },
+    "LIPE": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "items": [],
+      "hash": null
+    },
+    "LIPH": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "items": [],
+      "hash": null
+    },
+    "LIPQ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "items": [],
+      "hash": null
+    },
+    "LIPR": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "items": [],
+      "hash": null
+    },
+    "LIPX": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "items": [],
+      "hash": null
+    },
+    "LIPY": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "items": [],
+      "hash": null
+    },
+    "LIPZ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "items": [],
+      "hash": null
+    },
+    "LIRF": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "items": [],
+      "hash": null
+    },
+    "LIRN": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "items": [],
+      "hash": null
+    },
+    "LIRP": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "items": [],
+      "hash": null
+    },
+    "LIRZ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "items": [],
+      "hash": null
+    },
+    "LJLJ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "items": [],
+      "hash": null
+    },
+    "LKMT": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "items": [],
+      "hash": null
+    },
+    "LKPR": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "items": [],
+      "hash": null
+    },
+    "LLBG": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "items": [],
+      "hash": null
+    },
+    "LMML": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "items": [],
+      "hash": null
+    },
+    "LOWW": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "items": [],
+      "hash": null
+    },
+    "LPFR": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "items": [],
+      "hash": null
+    },
+    "LPMA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "items": [],
+      "hash": null
+    },
+    "LPPR": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "items": [],
+      "hash": null
+    },
+    "LPPS": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "items": [],
+      "hash": null
+    },
+    "LPPT": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "items": [],
+      "hash": null
+    },
+    "LQBK": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "items": [],
+      "hash": null
+    },
+    "LQSA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "items": [],
+      "hash": null
+    },
+    "LQTZ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "items": [],
+      "hash": null
+    },
+    "LRIA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "items": [],
+      "hash": null
+    },
+    "LRBC": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "items": [],
+      "hash": null
+    },
+    "LRBS": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "items": [],
+      "hash": null
+    },
+    "LRBV": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "items": [],
+      "hash": null
+    },
+    "LRCL": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "items": [],
+      "hash": null
+    },
+    "LRCV": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "items": [],
+      "hash": null
+    },
+    "LROP": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "items": [],
+      "hash": null
+    },
+    "LRSB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "items": [],
+      "hash": null
+    },
+    "LRSM": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "items": [],
+      "hash": null
+    },
+    "LRSV": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "items": [],
+      "hash": null
+    },
+    "LRTM": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "items": [],
+      "hash": null
+    },
+    "LRTR": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "items": [],
+      "hash": null
+    },
+    "LTAC": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "items": [],
+      "hash": null
+    },
+    "LTFM": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "items": [],
+      "hash": null
+    },
+    "LUKK": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "items": [],
+      "hash": null
+    },
+    "LWOH": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "items": [],
+      "hash": null
+    },
+    "LWSK": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "items": [],
+      "hash": null
+    },
+    "LYBE": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "items": [],
+      "hash": null
+    },
+    "LYNI": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "items": [],
+      "hash": null
+    },
+    "LYPG": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "items": [],
+      "hash": null
+    },
+    "LZIB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "items": [],
+      "hash": null
+    },
+    "LZKZ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "items": [],
+      "hash": null
+    },
+    "LZTT": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "items": [],
+      "hash": null
+    },
+    "OEJN": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "items": [],
+      "hash": null
+    },
+    "OEMA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "items": [],
+      "hash": null
+    },
+    "OJAI": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "items": [],
+      "hash": null
+    },
+    "OMAA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "items": [],
+      "hash": null
+    },
+    "OMDB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "items": [],
+      "hash": null
+    },
+    "UAAA": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "items": [],
+      "hash": null
+    },
+    "UBBB": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
+      "items": [],
+      "hash": null
+    },
+    "UDSG": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
+      "items": [],
+      "hash": null
+    },
+    "UDYZ": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
+      "items": [],
+      "hash": null
+    },
+    "UGKO": {
+      "loaded": true,
+      "has_snowtam": false,
+      "severity": "gray",
+      "changed": false,
+      "last_change_utc": null,
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-08T15%3A37%3A14Z&ends_at=2026-01-16T15%3A37%3A14Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
+      "items": [],
+      "hash": null
+    }
+  }
 }
