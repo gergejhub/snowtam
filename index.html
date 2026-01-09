@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WIZZ SNOWTAM Watch</title>
+
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="title">WIZZ SNOWTAM Watch</div>
+      <div class="subtitle">Global SNOWTAM-like NOTAM monitoring (Notamify API)</div>
+    </div>
+
+    <div class="statusbar">
+      <div id="last-updated" class="pill">Last update: —</div>
+      <div id="source-pill" class="pill">Source: Notamify</div>
+      <button id="refresh-btn" class="btn">Refresh</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <div class="panel-title">Airports</div>
+        <input id="search" type="text" placeholder="Search ICAO (e.g., ENTO)..." />
+        <div class="legend">
+          <div class="legend-row"><span class="dot dot-gray"></span> Unknown / not loaded</div>
+          <div class="legend-row"><span class="dot dot-green"></span> OK (no SNOWTAM-like NOTAM)</div>
+          <div class="legend-row"><span class="dot dot-yellow"></span> Mild winter condition</div>
+          <div class="legend-row"><span class="dot dot-orange"></span> Moderate winter condition</div>
+          <div class="legend-row"><span class="dot dot-red"></span> Severe winter condition</div>
+          <div class="legend-row"><span class="blink-sample"></span> Blink = change detected</div>
+        </div>
+        <div id="airport-list" class="airport-list"></div>
+      </div>
+
+      <div class="panel small">
+        <div class="panel-title">Notes</div>
+        <div class="smalltext">
+          This is a decision-support dashboard. Always cross-check with your official briefing source.
+          API keys must be stored as GitHub Secrets; do not embed keys client-side.
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div id="map"></div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
