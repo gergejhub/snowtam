@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-01-09T16:18:20Z",
+  "generated_at_utc": "2026-01-09T16:35:59Z",
   "source": "Notamify /api/v2/notams (active)",
   "window": {
-    "starts_at": "2026-01-08T17:18:20Z",
-    "ends_at": "2026-01-16T16:18:20Z"
+    "starts_at": "2026-01-08T17:35:59Z",
+    "ends_at": "2026-01-16T16:35:59Z"
   },
   "batch_size": 5,
   "per_page": 30,
@@ -13,252 +13,290 @@
     "BIKF": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "BKPR": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "GCFV": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "GCLP": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "GCTS": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "GMAD": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "GMMN": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "GMMX": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EBCI": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EDDB": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EDDH": {
       "loaded": true,
-      "has_snowtam": false,
-      "severity": "gray",
+      "has_snowtam": true,
+      "severity": "yellow",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
-      "items": [],
-      "hash": null
+      "error": null,
+      "items": [
+        {
+          "raw": "A0161/26 NOTAMN\nQ) EDWW/QFALT/IV/NBO/A /000/999/5338N00959E005\nA) EDDH B) 2601090500 C) 2601092259\nE) ADVERSE WX COND EXP. REDUCED AD CAPACITY DUE TO HVY SNOW AND\nSTRONG\nWINDS. ACDM WILL BE SUSPENDED. EXP LTD RWY AVBL. EXP HVY DELAYS.\nDEICING PROCEDURE WILL TAKE PLACE ON REMOTE STANDS. AD NOT AVBL AS\nCOMMERCIAL ALTERNATE.",
+          "excerpt": "Airport operations are significantly reduced with A-CDM suspended, limited runway availability, deicing moved to remote stands, and the airport unavailable as a commercial alternate.",
+          "description": "Due to heavy snow and strong winds, the aerodrome expects reduced capacity and heavy delays; A-CDM is suspended; runway availability is limited; deicing will take place on remote stands; and the aerodrome is not available as a commercial alternate."
+        }
+      ],
+      "evidence": {
+        "rwycc": null,
+        "braking": null,
+        "closed": false,
+        "keywords": [
+          "SNOW"
+        ]
+      },
+      "hash": "8010d290d242b034c873d4ea0f8f54faf2f48f8e"
     },
     "EDDK": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EDDN": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EDDS": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EDFH": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EDJA": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EDLW": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EDNY": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EDSB": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EETN": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EFTU": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EGBB": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EGGP": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EGGW": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EGKK": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EGNM": {
       "loaded": true,
@@ -266,7 +304,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -276,7 +314,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -286,7 +324,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -296,7 +334,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -306,159 +344,174 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
     "EKBI": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EKCH": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ENAL": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ENBR": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ENGM": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ENHD": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ENTC": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ENTO": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ENVA": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ENZV": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EPGD": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EPKK": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EPKT": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EPLB": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EPMO": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EPPO": {
       "loaded": true,
@@ -466,7 +519,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -476,7 +529,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -486,7 +539,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -496,7 +549,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -506,209 +559,229 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
     "EPWA": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EPWR": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ESGG": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ESKN": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ESMS": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "ESSA": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EYKA": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EYPA": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "EYVI": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "HEGN": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "HEMA": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "HESH": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "HESX": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LATI": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LBPD": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LBSF": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LBWN": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LCLK": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LCPH": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LEAL": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LEBB": {
       "loaded": true,
@@ -716,7 +789,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -726,7 +799,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -736,7 +809,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -746,7 +819,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -756,59 +829,64 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
     "LEVC": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LEXJ": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LEZG": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LEZL": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LFBD": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LFLL": {
       "loaded": true,
@@ -816,7 +894,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -826,7 +904,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -836,7 +914,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -846,7 +924,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -856,59 +934,64 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
     "LFSB": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LGAV": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LGTS": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LHBP": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LHDC": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIBD": {
       "loaded": true,
@@ -916,7 +999,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -926,7 +1009,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -936,7 +1019,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -946,7 +1029,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -956,7 +1039,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -966,7 +1049,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -976,7 +1059,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -986,7 +1069,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -996,7 +1079,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -1006,259 +1089,297 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
     "LIMJ": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIPE": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIPH": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIPQ": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIPR": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIPX": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIPY": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIPZ": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIRF": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIRN": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIRP": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LIRZ": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LJLJ": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LKMT": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LKPR": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LLBG": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LMML": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LOWW": {
       "loaded": true,
-      "has_snowtam": false,
-      "severity": "gray",
+      "has_snowtam": true,
+      "severity": "yellow",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
-      "items": [],
-      "hash": null
+      "error": null,
+      "items": [
+        {
+          "raw": "A1102/25 NOTAMR A1087/25\nQ) LOVV/QFIXX/IV/NBO/A /000/999/4807N01634E005\nA) LOWW B) 2505200939 C) PERM\nE) ENGINE ICE SHEDDING: PILOTS ARE REQUESTED TO REPORT NECESSITY FOR\nICE SHEDDING TO ATC PRIOR REQUEST FOR TAXI. \nTO AVOID RWY CAPACITY REDUCTION ICE SHEDDING WITH TWIN AND TRIPLE\nENGINE A/C SHOULD BE PERFORMED ON AN ASSIGNED TWY LOCATION WHENEVER \nPOSSIBLE (MAX. 70 PERCENT THRUST). EXPECT ASSIGNMENT OF AN AREA ON A \nSTRAIGHT PORTION OF A TWY DEPENDENT TO THE DEPARTURE RWY. \nIF ICE SHEDDING MUST BE PERFORMED ON THE RWY:  REPORT TO ATC PRIOR\nLINEUP IF ROLLING T/O CANNOT BE PERFORMED OR T/O ROLL WILL BE DELAYED\nBY MORE THAN 10 SECONDS AFTER T/O CLEARANCE.",
+          "excerpt": "Pilots must report ice shedding needs to ATC before taxiing to maintain runway capacity.",
+          "description": "Pilots are requested to report the necessity for ice shedding to ATC before requesting taxi to avoid runway capacity reduction, especially for twin and triple engine aircraft."
+        }
+      ],
+      "evidence": {
+        "rwycc": null,
+        "braking": null,
+        "closed": false,
+        "keywords": [
+          "ICE"
+        ]
+      },
+      "hash": "74cfa695bdd448680eda6772ff4d32d8cb3b534c"
     },
     "LPFR": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LPMA": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LPPR": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LPPS": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LPPT": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LQBK": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LQSA": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LQTZ": {
       "loaded": true,
@@ -1266,7 +1387,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -1276,7 +1397,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -1286,7 +1407,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -1296,7 +1417,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -1306,209 +1427,229 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
     "LRCL": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LRCV": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LROP": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LRSB": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LRSM": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LRSV": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LRTM": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LRTR": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LTAC": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LTFM": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LUKK": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LWOH": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LWSK": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LYBE": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LYNI": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LYPG": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LZIB": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LZKZ": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "LZTT": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "OEJN": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "OEMA": {
       "loaded": true,
@@ -1516,7 +1657,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -1526,7 +1667,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -1536,7 +1677,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -1546,7 +1687,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
@@ -1556,49 +1697,53 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='api.notamify.com', port=443): Read timed out. (read timeout=25)",
       "items": [],
       "hash": null
     },
     "UBBB": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "UDSG": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "UDYZ": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     },
     "UGKO": {
       "loaded": true,
       "has_snowtam": false,
-      "severity": "gray",
+      "severity": "green",
       "changed": false,
       "last_change_utc": null,
-      "error": "RuntimeError: Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.",
+      "error": null,
       "items": [],
-      "hash": null
+      "evidence": null,
+      "hash": "NO_SNOWTAM"
     }
   }
 }
