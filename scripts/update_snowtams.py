@@ -163,7 +163,6 @@ def notamify_headers(api_key: str) -> dict:
     bearer = f"Bearer {api_key}"
     return {
         "Accept": "application/json",
-        "Authorization": bearer,
         "Authentication": bearer,
         "User-Agent": "wizz-snowtam-watch/1.0",
     }
@@ -268,6 +267,12 @@ def fetch_notams_for_batch(api_key: str, batch: List[str], starts_at: str, ends_
             params.append(("location", icao))
 
         r = requests.get(NOTAMIFY_URL, headers=headers, params=params, timeout=REQUEST_TIMEOUT)
+        if r.status_code == 400:
+            # Include response body for easier debugging (do not include API key)
+            body = (r.text or "").strip()
+            if body:
+                raise RuntimeError(f"Notamify returned 400 Bad Request: {body[:800]}")
+            raise RuntimeError("Notamify returned 400 Bad Request")
         if r.status_code == 401:
             raise RuntimeError("Notamify returned 401 Unauthorized. Check NOTAMIFY_API_KEY secret/header.")
         r.raise_for_status()
@@ -287,7 +292,7 @@ def build_status(icao_list: List[str], api_key: str) -> dict:
 
     now = utc_now()
     # Notamify limitation: starts_at cannot be earlier than one day before current UTC
-    starts = (now - timedelta(days=1)).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    starts = (now - timedelta(hours=23)).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     ends = (now + timedelta(days=7)).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     airports_out: Dict[str, dict] = {}
