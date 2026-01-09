@@ -158,14 +158,30 @@ def ensure_airports_json(icao_list: List[str]) -> None:
     print(f"[airports] wrote {len(airports)} airports; missing coords: {len(missing)}")
 
 
+def normalize_api_key(raw: str) -> str:
+    """Normalize API key pasted into Secrets.
+
+    - Strips whitespace/newlines
+    - Removes an accidental leading 'Bearer ' prefix
+    """
+    key = (raw or "").strip()
+    if key.lower().startswith("bearer "):
+        key = key[7:].strip()
+    return key
+
+
 def notamify_headers(api_key: str) -> dict:
-    # Docs show "Authentication: Bearer <token>" and also OpenAPI sample uses Authorization.
-    bearer = f"Bearer {api_key}"
+    # Notamify docs and examples vary between 'Authorization' and 'Authentication'.
+    # Send BOTH for maximum compatibility.
+    key = normalize_api_key(api_key)
+    bearer = f"Bearer {key}"
     return {
         "Accept": "application/json",
+        "Authorization": bearer,
         "Authentication": bearer,
         "User-Agent": "wizz-snowtam-watch/1.0",
     }
+
 
 
 def chunk(lst: List[str], n: int) -> List[List[str]]:
@@ -396,7 +412,7 @@ def build_status(icao_list: List[str], api_key: str) -> dict:
 
 
 def main() -> int:
-    api_key = os.getenv("NOTAMIFY_API_KEY", "").strip()
+    api_key = normalize_api_key(os.getenv("NOTAMIFY_API_KEY", ""))
     if not api_key:
         print("ERROR: missing NOTAMIFY_API_KEY environment variable.", file=sys.stderr)
         return 2
