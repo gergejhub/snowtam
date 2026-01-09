@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-01-09T16:12:53Z",
+  "generated_at_utc": "2026-01-09T16:18:20Z",
   "source": "Notamify /api/v2/notams (active)",
   "window": {
-    "starts_at": "2026-01-08T17:12:53Z",
-    "ends_at": "2026-01-16T16:12:53Z"
+    "starts_at": "2026-01-08T17:18:20Z",
+    "ends_at": "2026-01-16T16:18:20Z"
   },
   "batch_size": 5,
   "per_page": 30,
