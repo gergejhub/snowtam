@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-01-10T00:46:58Z",
+  "generated_at_utc": "2026-01-10T02:30:58Z",
   "source": "Notamify /api/v2/notams (active)",
   "window": {
-    "starts_at": "2026-01-09T01:46:58Z",
-    "ends_at": "2026-01-17T00:46:58Z"
+    "starts_at": "2026-01-09T03:30:58Z",
+    "ends_at": "2026-01-17T02:30:58Z"
   },
   "batch_size": 5,
   "per_page": 30,
@@ -16,7 +16,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -26,7 +26,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -36,7 +36,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -46,7 +46,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -56,7 +56,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=BIKF&location=BKPR&location=GCFV&location=GCLP&location=GCTS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -66,7 +66,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -76,7 +76,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -86,7 +86,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -96,7 +96,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -106,7 +106,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=GMAD&location=GMMN&location=GMMX&location=EBCI&location=EDDB",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -116,7 +116,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
       "items": [],
       "hash": "8010d290d242b034c873d4ea0f8f54faf2f48f8e"
     },
@@ -126,7 +126,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -136,7 +136,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -146,7 +146,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -156,7 +156,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDDH&location=EDDK&location=EDDN&location=EDDS&location=EDFH",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -166,7 +166,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -176,7 +176,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -186,7 +186,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -196,7 +196,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -206,7 +206,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EDJA&location=EDLW&location=EDNY&location=EDSB&location=EETN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -216,7 +216,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -226,7 +226,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -236,7 +236,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -246,7 +246,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -256,7 +256,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EFTU&location=EGBB&location=EGGP&location=EGGW&location=EGKK",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -266,7 +266,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -276,7 +276,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -286,7 +286,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -296,7 +296,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -306,7 +306,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EGNM&location=EGPD&location=EGPF&location=EHBK&location=EHEH",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -316,7 +316,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -326,7 +326,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -336,7 +336,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -346,7 +346,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -356,7 +356,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EKBI&location=EKCH&location=ENAL&location=ENBR&location=ENGM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -366,7 +366,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -376,7 +376,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -386,7 +386,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -396,7 +396,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -406,7 +406,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ENHD&location=ENTC&location=ENTO&location=ENVA&location=ENZV",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -416,7 +416,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -426,7 +426,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -436,7 +436,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -446,7 +446,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -456,7 +456,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPGD&location=EPKK&location=EPKT&location=EPLB&location=EPMO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -466,7 +466,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -476,7 +476,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -486,7 +486,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -496,7 +496,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -506,7 +506,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPPO&location=EPRA&location=EPRZ&location=EPSC&location=EPSY",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -516,7 +516,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -526,7 +526,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -536,7 +536,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -546,7 +546,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -556,7 +556,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=EPWA&location=EPWR&location=ESGG&location=ESKN&location=ESMS",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -566,7 +566,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -576,7 +576,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -586,7 +586,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -596,7 +596,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -606,7 +606,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=ESSA&location=EYKA&location=EYPA&location=EYVI&location=HEGN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -616,7 +616,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -626,7 +626,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -636,7 +636,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -646,7 +646,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -656,7 +656,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=HEMA&location=HESH&location=HESX&location=LATI&location=LBPD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -666,7 +666,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -676,7 +676,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -686,7 +686,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -696,7 +696,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -706,7 +706,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LBSF&location=LBWN&location=LCLK&location=LCPH&location=LEAL",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -716,7 +716,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -726,7 +726,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -736,7 +736,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -746,7 +746,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -756,7 +756,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEBB&location=LEBL&location=LECH&location=LEMD&location=LEMG",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -766,7 +766,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -776,7 +776,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -786,7 +786,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -796,7 +796,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -806,7 +806,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LEVC&location=LEXJ&location=LEZG&location=LEZL&location=LFBD",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -816,7 +816,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -826,7 +826,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -836,7 +836,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -846,7 +846,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -856,7 +856,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFLL&location=LFLS&location=LFMN&location=LFOB&location=LFPO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -866,7 +866,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -876,7 +876,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -886,7 +886,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -896,7 +896,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -906,7 +906,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LFSB&location=LGAV&location=LGTS&location=LHBP&location=LHDC",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -916,7 +916,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
       "items": [],
       "hash": null
     },
@@ -926,7 +926,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
       "items": [],
       "hash": null
     },
@@ -936,7 +936,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
       "items": [],
       "hash": null
     },
@@ -946,7 +946,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
       "items": [],
       "hash": null
     },
@@ -956,7 +956,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIBD&location=LIBG&location=LIBP&location=LIBR&location=LICA",
       "items": [],
       "hash": null
     },
@@ -966,7 +966,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
       "items": [],
       "hash": null
     },
@@ -976,7 +976,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
       "items": [],
       "hash": null
     },
@@ -986,7 +986,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
       "items": [],
       "hash": null
     },
@@ -996,7 +996,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
       "items": [],
       "hash": null
     },
@@ -1006,7 +1006,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LICC&location=LICJ&location=LIMC&location=LIME&location=LIMF",
       "items": [],
       "hash": null
     },
@@ -1016,7 +1016,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1026,7 +1026,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1036,7 +1036,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1046,7 +1046,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1056,7 +1056,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIMJ&location=LIPE&location=LIPH&location=LIPQ&location=LIPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1066,7 +1066,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1076,7 +1076,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1086,7 +1086,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1096,7 +1096,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1106,7 +1106,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIPX&location=LIPY&location=LIPZ&location=LIRF&location=LIRN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1116,7 +1116,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1126,7 +1126,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1136,7 +1136,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1146,7 +1146,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1156,7 +1156,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LIRP&location=LIRZ&location=LJLJ&location=LKMT&location=LKPR",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1166,7 +1166,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1176,7 +1176,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1186,7 +1186,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
       "items": [],
       "hash": "74cfa695bdd448680eda6772ff4d32d8cb3b534c"
     },
@@ -1196,7 +1196,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1206,7 +1206,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LLBG&location=LMML&location=LOWW&location=LPFR&location=LPMA",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1216,7 +1216,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1226,7 +1226,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1236,7 +1236,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1246,7 +1246,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1256,7 +1256,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LPPR&location=LPPS&location=LPPT&location=LQBK&location=LQSA",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1266,7 +1266,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
       "items": [],
       "hash": null
     },
@@ -1276,7 +1276,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
       "items": [],
       "hash": null
     },
@@ -1286,7 +1286,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
       "items": [],
       "hash": null
     },
@@ -1296,7 +1296,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
       "items": [],
       "hash": null
     },
@@ -1306,7 +1306,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LQTZ&location=LRIA&location=LRBC&location=LRBS&location=LRBV",
       "items": [],
       "hash": null
     },
@@ -1316,7 +1316,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1326,7 +1326,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1336,7 +1336,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1346,7 +1346,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1356,7 +1356,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRCL&location=LRCV&location=LROP&location=LRSB&location=LRSM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1366,7 +1366,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1376,7 +1376,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1386,7 +1386,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1396,7 +1396,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1406,7 +1406,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LRSV&location=LRTM&location=LRTR&location=LTAC&location=LTFM",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1416,7 +1416,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1426,7 +1426,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1436,7 +1436,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1446,7 +1446,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1456,7 +1456,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LUKK&location=LWOH&location=LWSK&location=LYBE&location=LYNI",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1466,7 +1466,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1476,7 +1476,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1486,7 +1486,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1496,7 +1496,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1506,7 +1506,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=LYPG&location=LZIB&location=LZKZ&location=LZTT&location=OEJN",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1516,7 +1516,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
       "items": [],
       "hash": null
     },
@@ -1526,7 +1526,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
       "items": [],
       "hash": null
     },
@@ -1536,7 +1536,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
       "items": [],
       "hash": null
     },
@@ -1546,7 +1546,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
       "items": [],
       "hash": null
     },
@@ -1556,7 +1556,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=OEMA&location=OJAI&location=OMAA&location=OMDB&location=UAAA",
       "items": [],
       "hash": null
     },
@@ -1566,7 +1566,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1576,7 +1576,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1586,7 +1586,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
       "items": [],
       "hash": "NO_SNOWTAM"
     },
@@ -1596,7 +1596,7 @@
       "severity": "gray",
       "changed": false,
       "last_change_utc": null,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T01%3A46%3A58Z&ends_at=2026-01-17T00%3A46%3A58Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.notamify.com/api/v2/notams?page=1&per_page=30&starts_at=2026-01-09T03%3A30%3A58Z&ends_at=2026-01-17T02%3A30%3A58Z&location=UBBB&location=UDSG&location=UDYZ&location=UGKO",
       "items": [],
       "hash": "NO_SNOWTAM"
     }
